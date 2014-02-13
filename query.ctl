@@ -1,0 +1,1 @@
+LOAD DATA  INFILE 'Queries.dat' INTO TABLE QUERIES FIELDS TERMINATED BY '\t'  (qid, query char(400))
